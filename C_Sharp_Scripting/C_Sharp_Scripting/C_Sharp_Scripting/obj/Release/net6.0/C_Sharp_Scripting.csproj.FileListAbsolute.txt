@@ -1,0 +1,15 @@
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\C_Sharp_Scripting.exe
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\C_Sharp_Scripting.deps.json
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\C_Sharp_Scripting.runtimeconfig.json
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\C_Sharp_Scripting.dll
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\C_Sharp_Scripting.pdb
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.csproj.AssemblyReference.cache
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.AssemblyInfoInputs.cache
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.AssemblyInfo.cs
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.csproj.CoreCompileInputs.cache
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.dll
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\refint\C_Sharp_Scripting.dll
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.pdb
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\C_Sharp_Scripting.genruntimeconfig.cache
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\obj\Release\net6.0\ref\C_Sharp_Scripting.dll

@@ -1,0 +1,5 @@
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\publish\C_Sharp_Scripting.exe
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\publish\C_Sharp_Scripting.dll
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\publish\C_Sharp_Scripting.deps.json
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\publish\C_Sharp_Scripting.runtimeconfig.json
+D:\Schule2223\Diplomarbeit\DynamicScripting\C_Sharp_Scripting\C_Sharp_Scripting\C_Sharp_Scripting\bin\Release\net6.0\publish\C_Sharp_Scripting.pdb
