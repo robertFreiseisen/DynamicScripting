@@ -1,7 +1,7 @@
 'use strict';
 
+console.log(myFunction());
+
 function myFunction() {
     return 42;
 }
-
-console.log(myFunction);
