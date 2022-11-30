@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace C_Sharp_Scripting
+namespace C_SharpExample
 {
     class Program
     {
@@ -15,6 +15,7 @@ namespace C_Sharp_Scripting
         }
     }
 }
+
 
 
 
