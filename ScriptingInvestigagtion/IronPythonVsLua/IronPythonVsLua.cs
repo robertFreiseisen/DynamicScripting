@@ -1,13 +1,24 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Configs;
+using BenchmarkDotNet.Engines;
+using BenchmarkDotNet.Environments;
+using BenchmarkDotNet.Jobs;
 using IronPython.Hosting;
 using Microsoft.Scripting.Hosting;
 using NLua;
+using Perfolizer.Horology;
+
 
 namespace IronPythonVsLua
 {
-    [MarkdownExporter, AsciiDocExporter, HtmlExporter, CsvExporter, RPlotExporter]
+
+
+
+    [MarkdownExporter, 
+        HtmlExporter,
+        SimpleJob(RunStrategy.ColdStart, launchCount: 1, warmupCount: 5, targetCount: 5, id: "FastAndDirtyJob")]
     public class IronPythonVsLua
-    {
+    { 
         #region IronPython
         [Benchmark]
         public void TestIronPython() => IronPythonSimple();
@@ -42,7 +53,7 @@ namespace IronPythonVsLua
         public void IronPythonSum()
         {
             var scope = engine.CreateScope();
-            var source = engine.CreateScriptSourceFromString("def sum(x,y): \r\n\t return x+ y\r\n\r\n\r\n result=sum(3,3)");
+            var source = engine.CreateScriptSourceFromString("def sum(x,y):\r\n\treturn x+y\n\r\n\r\rresult = sum(3,3)");
             source.Execute(scope);
             var result = scope.GetVariable("result");
             Console.WriteLine(result);
