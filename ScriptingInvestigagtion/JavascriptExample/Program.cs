@@ -15,6 +15,7 @@ namespace JavaScript
                                 return 42;
                             }
                             log(myFunction());");*/
+        
             var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
 
             Console.ReadKey();

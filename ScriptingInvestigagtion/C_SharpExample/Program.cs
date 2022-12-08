@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BenchmarkDotNet.Running;
+using System;
 
 namespace C_SharpExample
 {
@@ -6,12 +7,9 @@ namespace C_SharpExample
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(ReturnNumber());
+            var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
+
             Console.ReadKey();
-        }
-        public static int ReturnNumber()
-        {
-            return 42;
         }
     }
 }
