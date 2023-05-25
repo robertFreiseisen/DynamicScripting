@@ -1,5 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Engines;
+using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.CSharp.Scripting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,19 +16,21 @@ namespace C_SharpExample
     public class C_SharpTesting
     {
         [Benchmark]
-        public void TestC_Sharp_Simple() => Console.WriteLine(ReturnNumber());
+        public void TestC_Sharp_Simple() => ReturnNumber();
 
         [Benchmark]
-        public void TestC_Sharp_Sum() => Console.WriteLine(MySum(3,3));
+        public void TestC_Sharp_Sum() => MySum();
 
         #region C_SharpFunctions
-        public static int ReturnNumber()
+        public static async void ReturnNumber()
         {
-            return 42;
+            var state = await CSharpScript.RunAsync("return 42;");
+            Console.WriteLine(state.ReturnValue);
         }
-        public static int MySum(int x, int y)
+        public static async void MySum()
         {
-            return x + y;
+            var state = await CSharpScript.RunAsync("return 3 + 3;");
+            Console.WriteLine(state.ReturnValue);
         }
         #endregion
     }

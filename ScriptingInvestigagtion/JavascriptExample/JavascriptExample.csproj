@@ -9,7 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.2" />
-    <PackageReference Include="Jint" Version="2.11.58" />
+    <PackageReference Include="JavaScriptEngineSwitcher.Jint" Version="3.21.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
