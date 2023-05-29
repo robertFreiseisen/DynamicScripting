@@ -45,7 +45,7 @@ namespace JavaScript
 
             if (jsonOutput != null)
             {
-                List<string> logs = JsonConvert.DeserializeObject<List<string>>(jsonOutput);
+                List<string>? logs = JsonConvert.DeserializeObject<List<string>>(jsonOutput);
 
                 if (logs != null)
                 {
@@ -78,7 +78,7 @@ namespace JavaScript
 
             if (jsonOutput != null)
             {
-                List<string> logs = JsonConvert.DeserializeObject<List<string>>(jsonOutput);
+                List<string>? logs = JsonConvert.DeserializeObject<List<string>>(jsonOutput);
 
                 if (logs != null)
                 {
